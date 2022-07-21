@@ -8,7 +8,7 @@ from rest_framework.views import APIView
 
 from .models import Post, Comment, Like, UserFollowing
 from .permissions import IsAuthorOrReadOnly
-from .serializers import PostSerializer, UserFollowingSerializer, UserSerializer, CommentSerializer, LikeSerializer
+from .serializers import *
 
 
 @api_view(['GET'])
